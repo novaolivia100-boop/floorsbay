@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floorsbay | Luxury Flooring Northern Virginia</title>
+  <meta name="description" content="Premium Hardwood, LVP, Carpet & Tile Flooring Installation in Leesburg, Ashburn, Reston & Northern Virginia.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #2c2118;     /* Deep Warm Brown */
+      --accent: #d4af37;      /* Elegant Gold */
+      --light: #f9f5f0;       /* Warm Cream */
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { 
+      font-family: 'Segoe UI', system-ui, sans-serif; 
+      line-height: 1.7; 
+      color: #333; 
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+    nav {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1.3rem 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .logo { 
+      font-size: 2.3rem; 
+      font-weight: 700; 
+      color: var(--accent); 
+      letter-spacing: -1px;
+    }
+    .nav-links a {
+      color: white;
+      margin: 0 16px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--accent); }
+
+    .hero {
+      background: linear-gradient(rgba(44,33,24,0.75), rgba(44,33,24,0.8)), 
+                  url('https://images.unsplash.com/photo-1600585154340-be6161a56a26?ixlib=rb-4.0.3&auto=format&fit=crop&q=80') center/cover;
+      color: white;
+      text-align: center;
+      padding: 290px 20px 170px;
+    }
+    .hero h1 { 
+      font-size: 4.1rem; 
+      margin-bottom: 1.2rem;
+      font-weight: 700;
+    }
+    .hero p { font-size: 1.45rem; max-width: 850px; margin: 0 auto 2.5rem; }
+
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #2c2118;
+      padding: 18px 45px;
+      border-radius: 50px;
+      font-size: 1.25rem;
+      font-weight: 600;
+      text-decoration: none;
+      margin: 12px;
+      transition: all 0.4s;
+    }
+    .btn:hover { transform: scale(1.08); }
+
+    .section { padding: 110px 20px; max-width: 1400px; margin: 0 auto; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 2.5rem;
+      margin-top: 3rem;
+    }
+    .card {
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+      transition: all 0.4s;
+    }
+    .card:hover { transform: translateY(-12px); }
+    .card img { width: 100%; height: 250px; object-fit: cover; }
+    .card-content { padding: 2rem; text-align: center; }
+
+    footer {
+      background: #1a140f;
+      color: #d1c7b8;
+      padding: 80px 20px 30px;
+    }
+    .footer-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 40px;
+    }
+    .footer-col h3 {
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+    .footer-col a {
+      color: #d1c7b8;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .footer-col a:hover { color: white; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">FLOORSBAY</div>
+      <div class="nav-links">
+        <a href="https://floorsbay.com/">Home</a>
+        <a href="https://floorsbay.com/about-us/">About</a>
+        <a href="https://floorsbay.com/services/">Services</a>
+        <a href="https://floorsbay.com/gallery/">Gallery</a>
+        <a href="https://floorsbay.com/contact/">Contact</a>
+      </div>
+      <a href="tel:5712075050" style="color:white; font-weight:bold;">
+        <i class="fas fa-phone"></i> (571) 207-5050
+      </a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Timeless Floors.<br>Exceptional Craftsmanship.</h1>
+    <p>Premium Hardwood • Luxury Vinyl • Carpet • Tile Installation in Leesburg, Ashburn, Reston & Northern Virginia</p>
+    <a href="tel:5712075050" class="btn">Get Free Estimate</a>
+    <a href="https://floorsbay.com/contact/" class="btn" style="background:transparent; border:2px solid var(--accent); color:white;">Schedule Visit</a>
+  </section>
+
+  <!-- About -->
+  <section class="section" style="background:var(--light);">
+    <h2 style="text-align:center; font-size:2.9rem; margin-bottom:1.5rem; color:var(--primary);">Crafting Beautiful Spaces Since 2006</h2>
+    <p style="max-width:1100px; margin:0 auto; text-align:center; font-size:1.3rem;">
+      At Floorsbay, we believe flooring is more than just a surface — it's the foundation of your home. Our experienced team delivers luxurious, durable, and beautiful flooring solutions with unmatched attention to detail.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section class="section">
+    <h2 style="text-align:center; font-size:2.8rem; margin-bottom:2rem; color:var(--primary);">Signature Services</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a26?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="Hardwood">
+        <div class="card-content"><h3>Hardwood Flooring</h3><p>Elegant & timeless natural wood</p></div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600210492493-094691112ba1?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="LVP">
+        <div class="card-content"><h3>Luxury Vinyl Plank</h3><p>Waterproof & modern luxury</p></div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="Carpet">
+        <div class="card-content"><h3>Premium Carpet</h3><p>Softness and warmth</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="section" style="background:var(--light);">
+    <h2 style="text-align:center; font-size:2.8rem; margin-bottom:2rem; color:var(--primary);">Why Families Love Floorsbay</h2>
+    <div class="grid">
+      <div class="card"><div class="card-content"><h3>18+ Years Experience</h3></div></div>
+      <div class="card"><div class="card-content"><h3>Free In-Home Consultation</h3></div></div>
+      <div class="card"><div class="card-content"><h3>Premium Materials</h3></div></div>
+      <div class="card"><div class="card-content"><h3>Expert Installation</h3></div></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background:var(--primary); color:white; text-align:center; padding:140px 20px;">
+    <h2 style="font-size:3.3rem; margin-bottom:1rem;">Let's Create Your Dream Floor</h2>
+    <a href="tel:5712075050" class="btn" style="font-size:1.6rem; padding:22px 55px;">Call (571) 207-5050</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Floorsbay</h3>
+        <p>Premium Flooring Company<br>Leesburg, Virginia</p>
+      </div>
+      <div class="footer-col">
+        <h3>Company</h3>
+        <a href="https://floorsbay.com/">Home</a>
+        <a href="https://floorsbay.com/about-us/">About Us</a>
+        <a href="https://floorsbay.com/gallery/">Our Work</a>
+        <a href="https://floorsbay.com/contact/">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h3>Services</h3>
+        <a href="#">Hardwood Flooring</a>
+        <a href="#">Luxury Vinyl Plank</a>
+        <a href="#">Carpet Installation</a>
+        <a href="#">Tile & Laminate</a>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <p><i class="fas fa-phone"></i> (571) 207-5050</p>
+        <p><i class="fas fa-envelope"></i> floorsbay@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Leesburg, VA</p>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:60px; padding-top:20px; border-top:1px solid #3a2f25;">
+      <p>&copy; 2026 Floorsbay Inc. All Rights Reserved. | Northern Virginia's Luxury Flooring Experts</p>
+    </div>
+  </footer>
+
+</body>
+</html>
